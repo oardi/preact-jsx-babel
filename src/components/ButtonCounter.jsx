@@ -10,7 +10,7 @@ export const ButtonCounter = ({ name, onClicked }) => {
 	}
 
 	return (
-		<button onClick={() => handleClick()} class='btn btn-primary'>
+		<button onClick={() => handleClick()} className="btn btn-primary">
 			{name} - You clicked me {count} times
 		</button>
 	);
